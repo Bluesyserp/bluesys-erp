@@ -1,37 +1,45 @@
-name: Build e Release do BlueSys
+name: Criar Executavel (Diretorio)
 
 on:
   push:
     tags:
-      - 'v*' # Dispara apenas quando você criar uma tag (ex: v1.0.0)
+      - 'v*'
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-    - name: Baixar Código
+    - name: Baixar Codigo
       uses: actions/checkout@v3
 
-    - name: Configurar Python
+    - name: Instalar Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11' 
+        python-version: '3.11'
 
-    - name: Instalar Dependências
+    - name: Instalar Dependencias
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pyinstaller
 
-    - name: Criar Executável (Build)
+    - name: Criar Build (OneDir)
       run: |
-        pyinstaller --noconfirm --onefile --windowed --name "BlueSys" --add-data "assets;assets" --hidden-import "pyqtgraph" --hidden-import "pyqtgraph.graphicsItems" --hidden-import "dateutil" --hidden-import "requests" --hidden-import "sqlite3" main.py
+        # Note: removemos --onefile e usamos --onedir (que é o padrão)
+        # Adicionamos --contents-directory "_internal" para ficar organizado
+        pyinstaller --noconfirm --onedir --windowed --name "BlueSys" --contents-directory "_internal" --add-data "assets;assets" --hidden-import "pyqtgraph" --hidden-import "pyqtgraph.graphicsItems" --hidden-import "dateutil" --hidden-import "requests" --hidden-import "sqlite3" main.py
 
-    - name: Criar Release no GitHub
+    - name: Compactar em ZIP
+      run: |
+        # Entra na pasta dist e zipa a pasta BlueSys
+        cd dist
+        Compress-Archive -Path BlueSys -DestinationPath BlueSys.zip
+
+    - name: Publicar Atualizacao
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
       with:
-        files: dist/BlueSys.exe
+        files: dist/BlueSys.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

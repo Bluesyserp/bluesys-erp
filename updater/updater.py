@@ -4,107 +4,114 @@ import os
 import sys
 import logging
 import subprocess
+import zipfile
+import shutil
 from PyQt5.QtWidgets import QMessageBox
-
-# --- IMPORTAÇÃO DA VERSÃO CENTRALIZADA ---
-from config.version import APP_VERSION 
+from config.version import APP_VERSION
 
 # --- CONFIGURAÇÕES ---
-CURRENT_VERSION = APP_VERSION # Agora pega automático do arquivo config/version.py
-REPO_OWNER = "Bluesyserp"  
-REPO_NAME = "bluesys-erp"          
+CURRENT_VERSION = APP_VERSION
+REPO_OWNER = "Bluesyserp" 
+REPO_NAME = "bluesys-erp"
 # ---------------------
 
 GITHUB_API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/releases/latest"
 
 def check_for_update():
-    """
-    Verifica se há uma nova versão no GitHub, baixa e instala.
-    """
     logger = logging.getLogger(__name__)
     
     try:
-        # Se estiver rodando em modo desenvolvimento (.py), geralmente não queremos atualizar
         if not getattr(sys, 'frozen', False):
-            logger.info("Modo desenvolvimento detectado. Pulo verificação de update.")
+            logger.info("Modo desenvolvimento. Update pulado.")
             return
 
-        logger.info(f"Verificando atualizações em {GITHUB_API_URL}...")
+        logger.info(f"Buscando updates em {GITHUB_API_URL}...")
         response = requests.get(GITHUB_API_URL, timeout=5)
         
         if response.status_code == 200:
-            release_data = response.json()
-            latest_tag = release_data["tag_name"] # Ex: v1.0.1
-            latest_version = latest_tag.replace("v", "") 
+            data = response.json()
+            tag = data["tag_name"].replace("v", "")
             
-            if is_newer(latest_version, CURRENT_VERSION):
-                logger.info(f"Nova versão encontrada: {latest_version} (Atual: {CURRENT_VERSION})")
-                
+            if tag > CURRENT_VERSION:
                 reply = QMessageBox.question(
-                    None, 
-                    "Atualização Disponível",
-                    f"Uma nova versão ({latest_version}) está disponível.\n"
-                    "O sistema precisa reiniciar para atualizar.\n\nDeseja fazer isso agora?",
+                    None, "Atualização", 
+                    f"Versão {tag} disponível!\nO sistema será atualizado e reiniciado.",
                     QMessageBox.Yes | QMessageBox.No
                 )
                 
                 if reply == QMessageBox.Yes:
-                    # Pega o link do primeiro asset (o .exe)
-                    if "assets" in release_data and len(release_data["assets"]) > 0:
-                        download_url = release_data["assets"][0]["browser_download_url"]
-                        perform_update(download_url, "BlueSys.exe")
+                    # Procura o asset que termina em .zip
+                    asset = next((a for a in data["assets"] if a["name"].endswith(".zip")), None)
+                    if asset:
+                        perform_update_zip(asset["browser_download_url"])
                     else:
-                        logger.error("Release encontrada, mas sem arquivo .exe anexado.")
-            else:
-                logger.info("Sistema já está na versão mais recente.")
-        else:
-            logger.warning(f"Não foi possível checar atualizações. Status: {response.status_code}")
-            
+                        logger.error("Arquivo .zip não encontrado na release.")
     except Exception as e:
-        logger.error(f"Erro ao verificar atualizações: {e}")
+        logger.error(f"Erro no update: {e}")
 
-def is_newer(v_remote, v_local):
-    # Compara versões simples (ex: "1.0.1" > "1.0.0")
-    # Pode ser melhorado com 'packaging.version' se necessário
-    return v_remote > v_local
-
-def perform_update(url, filename):
-    """Baixa o novo executável e cria o script de troca."""
+def perform_update_zip(url):
+    """Baixa ZIP, extrai e substitui arquivos usando script BAT."""
     logger = logging.getLogger(__name__)
     try:
-        # 1. Define caminhos
-        current_exe = sys.executable
-        app_dir = os.path.dirname(current_exe)
-        new_exe_path = os.path.join(app_dir, f"new_{filename}")
-        bat_path = os.path.join(app_dir, "update.bat")
+        base_dir = os.path.dirname(sys.executable)
+        zip_path = os.path.join(base_dir, "update.zip")
+        extract_folder = os.path.join(base_dir, "update_temp")
+        bat_path = os.path.join(base_dir, "update.bat")
 
-        # 2. Baixa o arquivo
-        logger.info(f"Baixando atualização de {url}...")
+        # 1. Baixar
+        logger.info("Baixando...")
         r = requests.get(url, stream=True)
-        with open(new_exe_path, 'wb') as f:
-            for chunk in r.iter_content(chunk_size=8192):
-                f.write(chunk)
-        
-        logger.info("Download concluído. Criando script de atualização...")
+        with open(zip_path, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=8192): f.write(chunk)
 
-        # 3. Cria o script BAT para fazer a troca
-        # O script espera 3 segundos, deleta o exe antigo, renomeia o novo e abre.
+        # 2. Extrair
+        logger.info("Extraindo...")
+        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+            zip_ref.extractall(extract_folder)
+        
+        # O zip contém uma pasta "BlueSys". Precisamos do conteúdo dela.
+        # Caminho da nova pasta interna: update_temp/BlueSys/_internal
+        new_internal = os.path.join(extract_folder, "BlueSys", "_internal")
+        new_exe = os.path.join(extract_folder, "BlueSys", "BlueSys.exe")
+        
+        # 3. Criar Script de Troca
+        # Este script vai: 
+        # a) Esperar o programa fechar
+        # b) Apagar a pasta _internal antiga
+        # c) Mover a nova _internal para cá
+        # d) Substituir o .exe
+        # e) Limpar lixo e reabrir
+        
         bat_content = f"""
 @echo off
 timeout /t 3 /nobreak > NUL
-del "{current_exe}"
-move "{new_exe_path}" "{current_exe}"
-start "" "{current_exe}"
+
+:: 1. Remove a pasta interna antiga
+rmdir /S /Q "_internal"
+
+:: 2. Move a nova pasta interna para cá
+move "{new_internal}" "_internal"
+
+:: 3. Substitui o executável
+del "BlueSys.exe"
+move "{new_exe}" "BlueSys.exe"
+
+:: 4. Limpa arquivos temporários
+rmdir /S /Q "{extract_folder}"
+del "update.zip"
+
+:: 5. Reabre o sistema
+start "" "BlueSys.exe"
 del "%~f0"
 """
         with open(bat_path, 'w') as f:
             f.write(bat_content)
 
-        # 4. Executa o script e fecha o programa atual
-        logger.info("Iniciando script de troca e encerrando aplicação.")
+        # 4. Executar
+        logger.info("Reiniciando para aplicar...")
         subprocess.Popen([bat_path], shell=True)
         sys.exit(0)
 
     except Exception as e:
-        logger.error(f"Falha crítica ao atualizar: {e}")
-        QMessageBox.critical(None, "Erro", f"Falha ao baixar atualização:\n{e}")
+        logger.error(f"Falha crítica no update: {e}")
+        QMessageBox.critical(None, "Erro", f"Falha ao atualizar:\n{e}")
