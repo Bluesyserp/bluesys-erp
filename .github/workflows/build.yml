@@ -26,7 +26,7 @@ jobs:
 
     - name: Criar Executável (Build)
       run: |
-        pyinstaller --noconfirm --onefile --windowed --name "BlueSys" --add-data "assets;assets" main.py
+        pyinstaller --noconfirm --onefile --windowed --name "BlueSys" --add-data "assets;assets" --hidden-import "pyqtgraph" --hidden-import "pyqtgraph.graphicsItems" --hidden-import "dateutil" --hidden-import "requests" --hidden-import "sqlite3" main.py
 
     - name: Criar Release no GitHub
       uses: softprops/action-gh-release@v1
