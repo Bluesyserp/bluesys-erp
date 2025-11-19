@@ -4,13 +4,15 @@ import os
 import sys
 import logging
 import subprocess
-import time
 from PyQt5.QtWidgets import QMessageBox
 
+# --- IMPORTAÇÃO DA VERSÃO CENTRALIZADA ---
+from config.version import APP_VERSION 
+
 # --- CONFIGURAÇÕES ---
-CURRENT_VERSION = "1.0.0" # <--- ATUALIZE ISSO A CADA VERSÃO NOVA NO CÓDIGO
-REPO_OWNER = "Bluesyserp"  # <--- COLOQUE SEU USUÁRIO AQUI
-REPO_NAME = "bluesys-erp"          # <--- COLOQUE O NOME DO REPO AQUI
+CURRENT_VERSION = APP_VERSION # Agora pega automático do arquivo config/version.py
+REPO_OWNER = "Bluesyserp"  
+REPO_NAME = "bluesys-erp"          
 # ---------------------
 
 GITHUB_API_URL = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/releases/latest"

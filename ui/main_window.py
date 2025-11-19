@@ -28,6 +28,7 @@ from modules.relatorio_vendas_produto import RelatorioVendasProduto
 from modules.consulta_prevendas import ConsultaPreVendas
 # --- NOVO: Motivos de Cancelamento ---
 from modules.motivos_cancelamento_form import MotivosCancelamentoForm
+from config.version import APP_VERSION, APP_NAME
 
 # --- MÓDULOS DE CADASTRO ---
 from modules.category_form import CategoryForm

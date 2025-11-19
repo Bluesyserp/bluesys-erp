@@ -15,6 +15,7 @@ from PyQt5.QtCore import (
 
 from ui.main_window import MainWindow
 from database.db import get_connection
+from config.version import APP_VERSION, APP_NAME
 
 class LoginWindow(QWidget):
     def __init__(self):
