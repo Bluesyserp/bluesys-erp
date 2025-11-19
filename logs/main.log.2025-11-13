@@ -1,0 +1,420 @@
+2025-11-13 08:06:59,819 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 08:06:59,820 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 08:06:59,820 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 08:06:59,820 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 08:06:59,820 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 08:06:59,820 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 08:06:59,821 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 08:06:59,826 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 08:07:00,498 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 08:10:09,102 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 08:10:09,103 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 08:10:09,103 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 08:10:09,103 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 08:10:09,103 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 08:10:09,103 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 08:10:09,104 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 08:10:09,108 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 08:10:09,487 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 08:57:05,131 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 08:57:05,132 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 08:57:05,132 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 08:57:05,132 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 08:57:05,132 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 08:57:05,132 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 08:57:05,132 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 08:57:05,138 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 08:57:05,679 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 09:10:56,247 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 09:10:56,247 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 09:10:56,248 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 09:10:56,248 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 09:10:56,248 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 09:10:56,248 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 09:10:56,249 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 09:10:56,257 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 09:10:56,858 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 09:17:01,434 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 09:17:01,434 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 09:17:01,435 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 09:17:01,435 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 09:17:01,435 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 09:17:01,435 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 09:17:01,435 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 09:17:01,444 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 09:17:02,018 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 09:32:15,615 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 09:32:15,615 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 09:32:15,615 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 09:32:15,616 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 09:32:15,616 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 09:32:15,616 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 09:32:15,616 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 09:32:15,624 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 09:32:16,242 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 09:35:24,078 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-13 09:35:24,078 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-13 09:36:59,687 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 09:36:59,688 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 09:36:59,688 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 09:36:59,688 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 09:36:59,689 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 09:36:59,689 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 09:36:59,689 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 09:36:59,693 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 09:37:00,069 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 09:46:52,526 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 09:46:52,526 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 09:46:52,527 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 09:46:52,527 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 09:46:52,527 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 09:46:52,527 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 09:46:52,527 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 09:46:52,532 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 09:46:52,909 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 10:36:06,458 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 10:36:06,458 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 10:36:06,458 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 10:36:06,458 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 10:36:06,459 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 10:36:06,459 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 10:36:06,459 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 10:36:06,464 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 10:36:06,849 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 10:36:27,583 - DEBUG - [urllib3.connectionpool:connectionpool.py:1049] - Starting new HTTPS connection (1): api.invertexto.com:443
+2025-11-13 10:36:28,056 - DEBUG - [urllib3.connectionpool:connectionpool.py:544] - https://api.invertexto.com:443 "GET /v1/cnpj/00636367000104?token=22896%7CBxa6LMJ6uAIerPz7pxBcjmKNxMCUFiZn HTTP/1.1" 200 1128
+2025-11-13 10:37:12,741 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 10:37:12,742 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 10:37:12,742 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 10:37:12,742 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 10:37:12,742 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 10:37:12,742 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 10:37:12,742 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 10:37:12,747 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 10:37:13,126 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 10:44:11,829 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 10:44:11,829 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 10:44:11,829 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 10:44:11,829 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 10:44:11,829 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 10:44:11,829 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 10:44:11,830 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 10:44:11,834 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 10:44:12,215 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 10:57:38,635 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 10:57:38,635 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 10:57:38,635 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 10:57:38,635 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 10:57:38,635 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 10:57:38,635 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 10:57:38,636 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 10:57:38,639 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 10:57:39,017 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 10:58:13,376 - DEBUG - [urllib3.connectionpool:connectionpool.py:1049] - Starting new HTTPS connection (1): api.invertexto.com:443
+2025-11-13 10:58:13,809 - DEBUG - [urllib3.connectionpool:connectionpool.py:544] - https://api.invertexto.com:443 "GET /v1/cnpj/00636367000104?token=22896%7CBxa6LMJ6uAIerPz7pxBcjmKNxMCUFiZn HTTP/1.1" 200 1128
+2025-11-13 10:59:01,569 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 10:59:01,570 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 10:59:01,570 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 10:59:01,570 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 10:59:01,570 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 10:59:01,570 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 10:59:01,571 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 10:59:01,575 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 10:59:01,945 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 11:06:56,667 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 11:06:56,667 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 11:06:56,667 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 11:06:56,668 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 11:06:56,668 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 11:06:56,668 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 11:06:56,668 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 11:06:56,670 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 11:06:57,044 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 11:07:15,028 - DEBUG - [urllib3.connectionpool:connectionpool.py:1049] - Starting new HTTPS connection (1): api.invertexto.com:443
+2025-11-13 11:07:15,489 - DEBUG - [urllib3.connectionpool:connectionpool.py:544] - https://api.invertexto.com:443 "GET /v1/cnpj/00636367000104?token=22896%7CBxa6LMJ6uAIerPz7pxBcjmKNxMCUFiZn HTTP/1.1" 200 1128
+2025-11-13 11:11:20,593 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 11:11:20,593 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 11:11:20,594 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 11:11:20,594 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 11:11:20,594 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 11:11:20,594 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 11:11:20,594 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 11:11:20,596 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 11:11:20,974 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 11:14:04,119 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 11:14:04,120 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 11:14:04,120 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 11:14:04,120 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 11:14:04,120 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 11:14:04,120 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 11:14:04,121 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 11:14:04,122 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 11:14:04,510 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 11:15:02,788 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 11:15:02,788 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 11:15:02,789 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 11:15:02,789 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 11:15:02,789 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 11:15:02,789 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 11:15:02,789 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 11:15:02,791 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 11:15:03,170 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 12:23:13,079 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 12:23:13,080 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 12:23:13,080 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 12:23:13,080 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 12:23:13,080 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 12:23:13,081 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 12:23:13,081 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 12:23:13,084 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 12:23:13,669 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 12:33:04,209 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 12:33:04,209 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 12:33:04,210 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 12:33:04,210 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 12:33:04,210 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 12:33:04,210 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 12:33:04,210 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 12:33:04,212 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 12:33:04,592 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 12:43:22,570 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 12:43:22,570 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 12:43:22,570 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 12:43:22,571 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 12:43:22,571 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 12:43:22,571 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 12:43:22,571 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 12:43:22,573 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 12:43:22,955 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 12:48:49,241 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 12:48:49,242 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 12:48:49,242 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 12:48:49,242 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 12:48:49,243 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 12:48:49,243 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 12:48:49,243 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 12:48:49,245 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 12:48:49,622 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 12:49:52,318 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 12:49:52,319 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 12:49:52,319 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 12:49:52,319 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 12:49:52,319 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 12:49:52,319 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 12:49:52,319 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 12:49:52,321 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 12:49:52,698 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 12:50:20,892 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 12:50:20,893 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 12:50:20,893 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 12:50:20,893 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 12:50:20,893 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 12:50:20,893 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 12:50:20,893 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 12:50:20,895 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 12:50:21,288 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 14:13:17,513 - INFO - [root:main.py:44] - ==================================================
+2025-11-13 14:13:17,514 - INFO - [root:main.py:45] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 14:13:17,514 - INFO - [root:main.py:46] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 14:13:17,514 - INFO - [root:main.py:47] - ==================================================
+2025-11-13 14:13:17,515 - INFO - [root:main.py:55] - Iniciando BlueSys ERP...
+2025-11-13 14:13:17,515 - WARNING - [root:main.py:62] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 14:13:17,515 - DEBUG - [root:main.py:65] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 14:13:17,517 - DEBUG - [root:main.py:67] - Tabelas verificadas com sucesso.
+2025-11-13 14:13:17,919 - INFO - [root:main.py:76] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 14:19:13,955 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 14:19:13,956 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 14:19:13,956 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 14:19:13,956 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 14:19:13,956 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 14:19:13,957 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 14:19:13,957 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 14:19:13,958 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 14:19:13,996 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 14:19:14,360 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 14:33:10,675 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 14:33:10,676 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 14:33:10,676 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 14:33:10,676 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 14:33:10,676 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 14:33:10,676 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 14:33:10,677 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 14:33:10,679 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 14:33:10,707 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 14:33:11,070 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 14:36:58,954 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 14:36:58,954 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 14:36:58,954 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 14:36:58,954 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 14:36:58,954 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 14:36:58,954 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 14:36:58,954 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 14:36:58,956 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 14:36:58,985 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 14:36:59,341 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 14:42:37,234 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 14:42:37,235 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 14:42:37,235 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 14:42:37,235 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 14:42:37,235 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 14:42:37,235 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 14:42:37,235 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 14:42:37,238 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 14:42:37,270 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 14:42:37,674 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 14:43:55,224 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 14:43:55,224 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 14:43:55,225 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 14:43:55,225 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 14:43:55,225 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 14:43:55,225 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 14:43:55,226 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 14:43:55,227 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 14:43:55,255 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 14:43:55,614 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 15:11:57,136 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 15:11:57,137 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 15:11:57,137 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 15:11:57,137 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 15:11:57,137 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 15:11:57,137 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 15:11:57,137 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 15:11:57,138 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 15:11:57,168 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 15:11:57,519 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 15:22:06,106 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 15:22:06,107 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 15:22:06,107 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 15:22:06,107 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 15:22:06,107 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 15:22:06,107 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 15:22:06,108 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 15:22:06,110 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 15:22:06,158 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 15:22:06,710 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 15:31:05,833 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 15:31:05,833 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 15:31:05,833 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 15:31:05,833 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 15:31:05,833 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 15:31:05,833 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 15:31:05,833 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 15:31:05,836 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 15:31:05,855 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 15:31:06,205 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 15:37:00,402 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 15:37:00,402 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 15:37:00,403 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 15:37:00,403 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 15:37:00,403 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 15:37:00,403 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 15:37:00,403 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 15:37:00,405 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 15:37:00,425 - INFO - [root:main.py:82] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 15:37:00,767 - INFO - [root:main.py:92] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 15:37:41,235 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-13 15:37:41,235 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-13 16:28:48,770 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 16:28:48,771 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 16:28:48,771 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 16:28:48,771 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 16:28:48,771 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 16:28:48,772 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 16:28:48,772 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 16:28:48,774 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 16:28:48,804 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 16:28:49,323 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 16:53:45,675 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 16:53:45,675 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 16:53:45,675 - INFO - [root:main.py:47] - Salvando log principal em: c:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 16:53:45,675 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 16:53:45,676 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 16:53:45,676 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 16:53:45,676 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 16:53:45,679 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 16:53:45,743 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: c:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 16:53:46,369 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 16:58:33,965 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 16:58:33,965 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 16:58:33,966 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 16:58:33,967 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 16:58:33,967 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 16:58:33,967 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 16:58:33,967 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 16:58:33,971 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 16:58:34,039 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 16:58:34,715 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 17:11:48,117 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 17:11:48,118 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 17:11:48,118 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 17:11:48,118 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 17:11:48,118 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 17:11:48,118 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 17:11:48,119 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 17:11:48,120 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 17:11:48,148 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 17:11:48,185 - CRITICAL - [root:main.py:102] - Erro fatal não tratado ao iniciar a aplicação: type object 'QSystemTrayIcon' has no attribute 'isSupported'
+Traceback (most recent call last):
+  File "C:\Users\rodri\Desktop\bluesys_erp\main.py", line 92, in main
+    login = LoginWindow()
+            ^^^^^^^^^^^^^
+  File "C:\Users\rodri\Desktop\bluesys_erp\auth\login_window.py", line 48, in __init__
+    self._setup_tray_icon()
+  File "C:\Users\rodri\Desktop\bluesys_erp\auth\login_window.py", line 446, in _setup_tray_icon
+    if not QSystemTrayIcon.isSupported():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QSystemTrayIcon' has no attribute 'isSupported'
+2025-11-13 17:15:36,294 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 17:15:36,294 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 17:15:36,294 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 17:15:36,294 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 17:15:36,295 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 17:15:36,295 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 17:15:36,295 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 17:15:36,296 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 17:15:36,324 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 17:15:36,667 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 18:00:52,192 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-13 18:00:52,192 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-13 18:06:15,411 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 18:06:15,411 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 18:06:15,411 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 18:06:15,412 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 18:06:15,412 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 18:06:15,412 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 18:06:15,412 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 18:06:15,414 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 18:06:15,442 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 18:06:15,797 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 18:11:29,434 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 18:11:29,434 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 18:11:29,434 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 18:11:29,434 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 18:11:29,434 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 18:11:29,435 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 18:11:29,435 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 18:11:29,437 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 18:11:29,465 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 18:11:29,810 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 18:13:26,435 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 18:13:26,435 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 18:13:26,435 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 18:13:26,435 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 18:13:26,435 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 18:13:26,435 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 18:13:26,435 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 18:13:26,438 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 18:13:26,467 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 18:13:26,810 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-13 18:13:51,616 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-13 18:13:51,616 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-13 20:58:00,180 - INFO - [root:main.py:45] - ==================================================
+2025-11-13 20:58:00,180 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-13 20:58:00,180 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-13 20:58:00,180 - INFO - [root:main.py:48] - ==================================================
+2025-11-13 20:58:00,180 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-13 20:58:00,180 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-13 20:58:00,180 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-13 20:58:00,182 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-13 20:58:00,222 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-13 20:58:00,562 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.

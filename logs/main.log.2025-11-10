@@ -1,0 +1,8 @@
+2025-11-10 17:49:45,700 - INFO - [root:main.py:48] - ==================================================
+2025-11-10 17:49:45,700 - INFO - [root:main.py:49] - Sistema de Logging (Rotativo) Iniciado
+2025-11-10 17:49:45,700 - INFO - [root:main.py:50] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-10 17:49:45,700 - INFO - [root:main.py:51] - ==================================================
+2025-11-10 17:49:45,700 - INFO - [root:main.py:60] - Iniciando BlueSys ERP...
+2025-11-10 17:49:45,701 - DEBUG - [root:main.py:63] - Verificando/Criando tabelas no banco de dados...
+2025-11-10 17:49:45,703 - DEBUG - [root:main.py:65] - Tabelas verificadas com sucesso.
+2025-11-10 17:49:46,234 - INFO - [root:main.py:74] - Janela de login exibida. Aguardando autenticação.

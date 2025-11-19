@@ -1,0 +1,200 @@
+2025-11-18 08:29:36,791 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 08:29:36,792 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 08:29:36,792 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 08:29:36,792 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 08:29:36,793 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 08:29:36,793 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 08:29:36,793 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 08:29:36,795 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 08:29:36,861 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 08:29:37,444 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 08:29:46,183 - INFO - [modules.pos_controller:pos_controller.py:107] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 08:29:55,580 - INFO - [modules.pos_controller:pos_controller.py:277] - VENDA FINALIZADA (Tipo: FISCAL). ID: 4, N°: 5, Caixa: 1, User: 1, Total: R$ 4.99
+2025-11-18 08:29:56,397 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 08:29:56,397 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 08:34:33,737 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 08:34:33,737 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 08:34:33,737 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 08:34:33,737 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 08:34:33,737 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 08:34:33,737 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 08:34:33,738 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 08:34:33,739 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 08:34:33,758 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 08:34:34,099 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 08:34:40,581 - INFO - [modules.pos_controller:pos_controller.py:107] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 08:34:50,996 - INFO - [modules.pos_controller:pos_controller.py:277] - VENDA FINALIZADA (Tipo: FISCAL). ID: 5, N°: 6, Caixa: 1, User: 1, Total: R$ 4.99
+2025-11-18 08:34:52,008 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 08:34:52,008 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 08:42:49,178 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 08:42:49,178 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 08:42:49,178 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 08:42:49,178 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 08:42:49,178 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 08:42:49,178 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 08:42:49,179 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 08:42:49,181 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 08:42:49,203 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 08:42:49,578 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 08:43:38,038 - INFO - [modules.pos_controller:pos_controller.py:107] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 08:43:45,917 - INFO - [modules.pos_controller:pos_controller.py:277] - VENDA FINALIZADA (Tipo: FISCAL). ID: 6, N°: 7, Caixa: 1, User: 1, Total: R$ 4.99
+2025-11-18 08:43:46,680 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 08:43:46,680 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 16:08:24,372 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 16:08:24,372 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 16:08:24,372 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 16:08:24,372 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 16:08:24,373 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 16:08:24,373 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 16:08:24,373 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 16:08:24,377 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 16:08:24,442 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 16:08:25,352 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 16:09:20,758 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 16:09:45,382 - DEBUG - [urllib3.connectionpool:connectionpool.py:1049] - Starting new HTTPS connection (1): api.invertexto.com:443
+2025-11-18 16:09:46,131 - DEBUG - [urllib3.connectionpool:connectionpool.py:544] - https://api.invertexto.com:443 "GET /v1/cnpj/00636367000104?token=22896%7CBxa6LMJ6uAIerPz7pxBcjmKNxMCUFiZn HTTP/1.1" 200 1128
+2025-11-18 16:10:38,083 - INFO - [modules.product_base_form:product_base_form.py:868] - Usuário 1 CRIOU produto: 'PATO DE BORRACHA' (Cód: 203001).
+2025-11-18 16:10:49,961 - INFO - [modules.product_base_form:product_base_form.py:760] - Usuário 1 atualizou preço rápido: Produto 1, Venda: 3.99, Custo: 1.49.
+2025-11-18 16:10:51,558 - INFO - [modules.product_base_form:product_base_form.py:868] - Usuário 1 ATUALIZOU produto: 'PATO DE BORRACHA' (Cód: 203001).
+2025-11-18 16:11:15,116 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 CRIOU conta financeira: 'DIPONIVEL CENTRAL CENTER' (Tipo: Cofre da loja).
+2025-11-18 16:11:22,355 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 CRIOU conta financeira: 'DISPONIVEL PDV' (Tipo: PDV / Caixa Operador).
+2025-11-18 16:11:29,711 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 CRIOU conta financeira: 'DIPONIVEL CARTOES' (Tipo: PDV / Caixa Operador).
+2025-11-18 16:11:50,208 - INFO - [modules.centros_custo_form:centros_custo_form.py:339] - Usuário 1 CRIOU centro de custo: 'DISPONIVEL CENTRO DE CUSTO' (Código: None).
+2025-11-18 16:12:39,902 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 ATUALIZOU conta financeira: 'DIPONIVEL CARTOES' (Tipo: Carteira de Cartões).
+2025-11-18 16:12:48,586 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 ATUALIZOU conta financeira: 'DIPONIVEL CENTRAL CENTER' (Tipo: Cofre da loja).
+2025-11-18 16:12:51,931 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 ATUALIZOU conta financeira: 'DISPONIVEL PDV' (Tipo: PDV / Caixa Operador).
+2025-11-18 16:14:43,003 - INFO - [modules.categorias_financeiras_form:categorias_financeiras_form.py:360] - Usuário 1 CRIOU categoria financeira: 'Receita' (Tipo: RECEITA).
+2025-11-18 16:15:06,123 - INFO - [modules.categorias_financeiras_form:categorias_financeiras_form.py:360] - Usuário 1 CRIOU categoria financeira: 'Receita cartoes' (Tipo: RECEITA).
+2025-11-18 16:16:40,184 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 ATUALIZOU conta financeira: 'DIPONIVEL CARTOES' (Tipo: Carteira de Cartões).
+2025-11-18 16:16:59,206 - INFO - [modules.contas_financeiras_form:contas_financeiras_form.py:393] - Usuário 1 ATUALIZOU conta financeira: 'DISPONIVEL PDV' (Tipo: PDV / Caixa Operador).
+2025-11-18 16:18:11,748 - INFO - [modules.pos_controller:pos_controller.py:107] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 16:18:37,336 - INFO - [modules.pos_controller:pos_controller.py:277] - VENDA FINALIZADA (Tipo: FISCAL). ID: 1, N°: 2, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 16:18:38,743 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 16:18:38,743 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:00:26,151 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:00:26,151 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:00:26,152 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:00:26,152 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:00:26,152 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:00:26,152 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:00:26,153 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:00:26,168 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:00:26,252 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:00:26,905 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:00:30,075 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:00:34,274 - INFO - [modules.pos_controller:pos_controller.py:107] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:00:51,927 - INFO - [modules.pos_controller:pos_controller.py:277] - VENDA FINALIZADA (Tipo: FISCAL). ID: 2, N°: 3, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:00:52,747 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:00:52,747 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:03:41,549 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:03:41,550 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:03:41,550 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:03:41,550 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:03:41,550 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:03:41,550 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:03:41,550 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:03:41,556 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:03:41,586 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:03:42,073 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:03:46,355 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:03:51,676 - INFO - [modules.pos_controller:pos_controller.py:110] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:04:08,645 - INFO - [modules.pos_controller:pos_controller.py:276] - VENDA FINALIZADA (Tipo: FISCAL). ID: 3, N°: 4, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:04:09,257 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:04:09,257 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:04:22,549 - INFO - [modules.pos_controller:pos_controller.py:610] - VENDA CANCELADA (User ID 1). Venda ID: 3. Motivo: Desistência do Cliente
+2025-11-18 23:16:20,080 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:16:20,081 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:16:20,081 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:16:20,081 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:16:20,081 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:16:20,081 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:16:20,081 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:16:20,085 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:16:20,103 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:16:20,437 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:16:24,793 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:16:27,016 - INFO - [modules.pos_controller:pos_controller.py:110] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:16:41,741 - INFO - [modules.pos_controller:pos_controller.py:276] - VENDA FINALIZADA (Tipo: FISCAL). ID: 4, N°: 5, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:16:42,935 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:16:42,935 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:16:55,295 - INFO - [modules.pos_controller:pos_controller.py:610] - VENDA CANCELADA (User ID 1). Venda ID: 4. Motivo: Desistência do Cliente
+2025-11-18 23:21:09,699 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:21:09,699 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:21:09,700 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:21:09,700 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:21:09,700 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:21:09,700 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:21:09,700 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:21:09,704 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:21:09,723 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:21:10,079 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:21:12,767 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:21:14,902 - INFO - [modules.pos_controller:pos_controller.py:110] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:21:24,120 - INFO - [modules.pos_controller:pos_controller.py:276] - VENDA FINALIZADA (Tipo: FISCAL). ID: 5, N°: 6, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:21:24,835 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:21:24,835 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:21:46,021 - INFO - [modules.pos_controller:pos_controller.py:610] - VENDA CANCELADA (User ID 1). Venda ID: 5. Motivo: Erro de Digitação
+2025-11-18 23:28:49,436 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:28:49,436 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:28:49,436 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:28:49,436 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:28:49,436 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:28:49,436 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:28:49,437 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:28:49,441 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:28:49,459 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:28:49,798 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:28:54,586 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:28:58,852 - INFO - [modules.pos_controller:pos_controller.py:110] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:41:52,684 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:41:52,685 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:41:52,685 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:41:52,685 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:41:52,685 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:41:52,685 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:41:52,685 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:41:52,689 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:41:52,707 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:41:53,051 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:41:56,370 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:41:59,151 - INFO - [modules.pos_controller:pos_controller.py:110] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:42:14,127 - INFO - [modules.pos_controller:pos_controller.py:276] - VENDA FINALIZADA (Tipo: NAO_FISCAL). ID: 6, N°: 7, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:42:29,590 - INFO - [modules.pos_controller:pos_controller.py:374] - CONVERSÃO P/ FISCAL (User ID 1). Venda ID: 6, Novo N°: 8.
+2025-11-18 23:42:30,198 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:42:30,198 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:45:39,396 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:45:39,396 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:45:39,396 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:45:39,396 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:45:39,396 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:45:39,397 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:45:39,397 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:45:39,401 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:45:39,419 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:45:39,768 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:45:42,789 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:45:45,038 - INFO - [modules.pos_controller:pos_controller.py:110] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:46:14,523 - INFO - [modules.pos_controller:pos_controller.py:276] - VENDA FINALIZADA (Tipo: FISCAL). ID: 7, N°: 9, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:46:15,452 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:46:15,452 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:50:50,234 - INFO - [root:main.py:45] - ==================================================
+2025-11-18 23:50:50,234 - INFO - [root:main.py:46] - Sistema de Logging (Rotativo) Iniciado
+2025-11-18 23:50:50,234 - INFO - [root:main.py:47] - Salvando log principal em: C:\Users\rodri\Desktop\bluesys_erp\logs\main.log
+2025-11-18 23:50:50,234 - INFO - [root:main.py:48] - ==================================================
+2025-11-18 23:50:50,234 - INFO - [root:main.py:56] - Iniciando BlueSys ERP...
+2025-11-18 23:50:50,234 - WARNING - [root:main.py:63] - Módulo de atualização não encontrado. Continuando sem atualização automática.
+2025-11-18 23:50:50,234 - DEBUG - [root:main.py:66] - Verificando/Criando tabelas no banco de dados...
+2025-11-18 23:50:50,239 - DEBUG - [root:main.py:68] - Tabelas verificadas com sucesso.
+2025-11-18 23:50:50,256 - INFO - [root:main.py:81] - Ícone da aplicação carregado de: C:\Users\rodri\Desktop\bluesys_erp\assets\bandeja_1.ico
+2025-11-18 23:50:50,597 - INFO - [root:main.py:95] - Janela de login exibida. Aguardando autenticação.
+2025-11-18 23:50:53,949 - INFO - [auth.login_window:login_window.py:403] - Login efetuado com sucesso. Usuário: admin (ID: 1)
+2025-11-18 23:50:58,257 - INFO - [modules.pos_controller:pos_controller.py:110] - Terminal 'CAIXA 01 CENTER' (ID: 1) validado com sucesso.
+2025-11-18 23:51:11,078 - INFO - [modules.pos_controller:pos_controller.py:276] - VENDA FINALIZADA (Tipo: FISCAL). ID: 8, N°: 10, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:51:12,012 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:51:12,013 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:51:38,728 - INFO - [modules.pos_controller:pos_controller.py:610] - VENDA CANCELADA (User ID 1). Venda ID: 8. Motivo: Desistência do Cliente
+2025-11-18 23:52:30,767 - INFO - [modules.pos_controller:pos_controller.py:276] - VENDA FINALIZADA (Tipo: NAO_FISCAL). ID: 9, N°: 11, Caixa: 1, User: 1, Total: R$ 3.99
+2025-11-18 23:52:43,636 - INFO - [modules.pos_controller:pos_controller.py:374] - CONVERSÃO P/ FISCAL (User ID 1). Venda ID: 9, Novo N°: 12.
+2025-11-18 23:52:45,131 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IHDR' 16 13
+2025-11-18 23:52:45,131 - DEBUG - [PIL.PngImagePlugin:PngImagePlugin.py:203] - STREAM b'IDAT' 41 370
+2025-11-18 23:53:04,316 - INFO - [modules.pos_controller:pos_controller.py:610] - VENDA CANCELADA (User ID 1). Venda ID: 9. Motivo: Erro de Digitação
