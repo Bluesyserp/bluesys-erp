@@ -28,7 +28,6 @@ from modules.relatorio_vendas_produto import RelatorioVendasProduto
 from modules.consulta_prevendas import ConsultaPreVendas
 # --- NOVO: Motivos de Cancelamento ---
 from modules.motivos_cancelamento_form import MotivosCancelamentoForm
-from config.version import APP_VERSION, APP_NAME
 
 # --- MÓDULOS DE CADASTRO ---
 from modules.category_form import CategoryForm
@@ -51,6 +50,7 @@ from modules.lancamento_dialog import LancamentoDialog
 # --- DUMMY CLASS (Placeholder) ---
 class DummyModule(QWidget):
     """Placeholder simples para módulos não implementados."""
+    # Adiciona sinais esperados para evitar erros de conexão
     form_closed = pyqtSignal()
     edit_product_requested = pyqtSignal(int)
     
@@ -325,11 +325,17 @@ class MainWindow(QMainWindow):
                 has_cadastro_item = True
             
             if self.form_permissions.get("form_product", False):
-                menu_cadastros.add_sub_button("Cadastro de Produtos", lambda: self._set_module_content("produtos_cadastro", ProductBaseForm, start_mode='new'))
+                menu_cadastros.add_sub_button(
+                    "Cadastro de Produtos", 
+                    lambda: self._set_module_content("produtos_cadastro", ProductBaseForm, start_mode='new')
+                )
                 has_cadastro_item = True
             
             if self.form_permissions.get("form_product_list", False):
-                menu_cadastros.add_sub_button("Consulta de Produtos", lambda: self._set_module_content("produtos_consulta", ProductBaseForm))
+                menu_cadastros.add_sub_button(
+                    "Consulta de Produtos", 
+                    lambda: self._set_module_content("produtos_consulta", ProductBaseForm)
+                )
                 has_cadastro_item = True
             
             if self.form_permissions.get("form_customer", False):
@@ -404,22 +410,45 @@ class MainWindow(QMainWindow):
             has_financeiro_item = False
             
             if self.form_permissions.get("form_financeiro", False):
-                menu_financeiro.add_sub_button("Dashboard Financeiro", lambda: self._set_module_content("financeiro_dashboard", FinanceiroForm))
+                menu_financeiro.add_sub_button(
+                    "Dashboard Financeiro", 
+                    lambda: self._set_module_content("financeiro_dashboard", FinanceiroForm)
+                )
                 has_financeiro_item = True
+            
             if self.form_permissions.get("form_contas_financeiras", False):
-                menu_financeiro.add_sub_button("Cadastro de Contas (Disponíveis)", lambda: self._set_module_content("contas_financeiras", ContasFinanceirasForm))
+                menu_financeiro.add_sub_button(
+                    "Cadastro de Contas (Disponíveis)", 
+                    lambda: self._set_module_content("contas_financeiras", ContasFinanceirasForm)
+                )
                 has_financeiro_item = True
+            
             if self.form_permissions.get("form_categorias_financeiras", False):
-                menu_financeiro.add_sub_button("Plano de Contas (Categorias)", lambda: self._set_module_content("categorias_financeiras", CategoriasFinanceirasForm))
+                menu_financeiro.add_sub_button(
+                    "Plano de Contas (Categorias)", 
+                    lambda: self._set_module_content("categorias_financeiras", CategoriasFinanceirasForm)
+                )
                 has_financeiro_item = True
+                
             if self.form_permissions.get("form_centros_de_custo", False):
-                menu_financeiro.add_sub_button("Centros de Custo", lambda: self._set_module_content("centros_de_custo", CentrosCustoForm))
+                menu_financeiro.add_sub_button(
+                    "Centros de Custo", 
+                    lambda: self._set_module_content("centros_de_custo", CentrosCustoForm)
+                )
                 has_financeiro_item = True
+
             if self.form_permissions.get("form_relatorio_dre", False):
-                menu_financeiro.add_sub_button("Relatório DRE", lambda: self._set_module_content("relatorio_dre", RelatorioDREForm))
+                menu_financeiro.add_sub_button(
+                    "Relatório DRE", 
+                    lambda: self._set_module_content("relatorio_dre", RelatorioDREForm)
+                )
                 has_financeiro_item = True
+
             if self.form_permissions.get("form_relatorio_fluxo_caixa", False):
-                menu_financeiro.add_sub_button("Relatório Fluxo de Caixa", lambda: self._set_module_content("relatorio_fluxo_caixa", RelatorioFluxoCaixa))
+                menu_financeiro.add_sub_button(
+                    "Relatório Fluxo de Caixa", 
+                    lambda: self._set_module_content("relatorio_fluxo_caixa", RelatorioFluxoCaixa)
+                )
                 has_financeiro_item = True
             
             if has_financeiro_item:
@@ -574,6 +603,7 @@ class MainWindow(QMainWindow):
         self.sidebar.setVisible(True)
         
         if self.current_content_widget:
+            # Desconecta sinais
             if hasattr(self.current_content_widget, 'caixaStateChanged'):
                 try: self.current_content_widget.caixaStateChanged.disconnect(self.toggle_kiosk_mode)
                 except TypeError: pass
@@ -598,7 +628,8 @@ class MainWindow(QMainWindow):
         initial_layout.setSpacing(20)
 
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        logo_path = os.path.abspath(os.path.join(base_dir, "..", "assets", "logo.png"))
+        logo_path = os.path.join(base_dir, "..", "assets", "logo.png")
+        logo_path = os.path.abspath(logo_path)
         logo_label = QLabel()
         logo_label.setObjectName("logo_label") 
         logo_label.setAlignment(Qt.AlignCenter)
@@ -607,18 +638,17 @@ class MainWindow(QMainWindow):
             pixmap = QPixmap(logo_path)
             if not pixmap.isNull():
                 logo_label.setPixmap(
-                    pixmap.scaled(750, 450, Qt.KeepAspectRatio, Qt.SmoothTransformation) 
+                    pixmap.scaled(750, 550, Qt.KeepAspectRatio, Qt.SmoothTransformation)
                 )
             else:
-                logo_label.setText("❌ Erro: imagem inválida.")
+                logo_label.setText("❌ Erro: imagem inválida em\n" + logo_path)
         else:
-            logo_label.setText("❌ Logo não encontrada.")
-        
-        initial_layout.addWidget(logo_label, 1) 
+            logo_label.setText("❌ Arquivo não encontrado:\n" + logo_path)
 
+        initial_layout.addWidget(logo_label)
         welcome_label = QLabel("Bem-vindo ao BlueSys ERP")
-        welcome_label.setObjectName("welcome_title")
         welcome_label.setAlignment(Qt.AlignCenter)
+        welcome_label.setStyleSheet("font-size: 20px; color: #333; margin-top: 15px; font-weight: bold;")
         initial_layout.addWidget(welcome_label)
         
         shortcut_layout = QHBoxLayout()
@@ -663,21 +693,26 @@ class MainWindow(QMainWindow):
         self.content_layout.addWidget(initial_widget, 1)
         self.current_content_widget = initial_widget
         self.setWindowTitle("BlueSys ERP")
-        print("Painel Rápido (Home) definido.")
+        print("Conteúdo inicial definido.")
     
     def _open_new_lancamento_dialog_from_home(self):
         dialog = LancamentoDialog(self.current_user_id, 1, self)
+        
         if dialog.exec_() == QDialog.Accepted:
             QMessageBox.information(self, "Sucesso", "Lançamento criado com sucesso!")
             if self.current_content_widget and isinstance(self.current_content_widget, FinanceiroForm):
                 self.current_content_widget.load_dashboard_data()
                 self.current_content_widget.load_lancamentos()
 
+
     def _set_module_content(self, module_key, module_class, **kwargs):
+        """Define o widget de um módulo, passando o user_id e **kwargs."""
+        
         if module_key != "vendas":
             self.sidebar.setVisible(True)
         
         if self.current_content_widget:
+            # Desconecta sinais
             if hasattr(self.current_content_widget, 'caixaStateChanged'):
                 try: self.current_content_widget.caixaStateChanged.disconnect(self.toggle_kiosk_mode)
                 except TypeError: pass
