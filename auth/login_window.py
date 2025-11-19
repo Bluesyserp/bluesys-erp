@@ -133,13 +133,13 @@ class LoginWindow(QWidget):
                 background-color: #2e2e4e;
                 font-size: 14px; color: #ffffff;
             }}
-            QLineEdit:focus {{ border: 1px solid #0078d7; }}
+            QLineEdit:focus {{ border: 1px solid #27AE60; }}
             QPushButton#login_btn {{
-                background-color: #0078d7; color: white;
+                background-color: #27AE60; color: white;
                 border-radius: 6px; padding: 10px;
                 font-weight: bold; font-size: 14px;
             }}
-            QPushButton#login_btn:hover {{ background-color: #005fa3; }}
+            QPushButton#login_btn:hover {{ background-color: #2ECC71; }}
             QLabel#version_label {{
                 color: #FFFFFF; font-size: 11px;
                 font-weight: bold; background-color: transparent;
