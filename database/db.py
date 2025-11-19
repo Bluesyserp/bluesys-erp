@@ -110,7 +110,6 @@ def populate_initial_data(cursor):
             ("Erro no Preço", 1),
             ("Forma de Pagamento Recusada", 1)
         ]
-        # Usa IGNORE para não duplicar se já existirem
         cursor.executemany("""
             INSERT OR IGNORE INTO motivos_cancelamento (descricao, ativo) VALUES (?, ?)
         """, motivos)
@@ -558,12 +557,16 @@ def create_tables():
     # --- FIM NOVO ---
 
     
+    # --- 9. Insere o usuário admin padrão (Bloco Restaurado e Corrigido) ---
     cursor.execute("SELECT id FROM usuarios WHERE username = 'admin'")
     admin_exists = cursor.fetchone()
+    
+    # Se o usuário 'admin' não existe no DB, cria-o e insere as permissões padrão
     if not admin_exists:
         cursor.execute("INSERT INTO usuarios (username, password_text) VALUES ('admin', 'admin')")
         user_id = cursor.lastrowid
         
+        # OBTENDO PERMISSÕES PADRÃO DO permissions.py PARA O ADMIN
         admin_modulos = {}
         admin_formularios = {}
         admin_campos = {}
@@ -589,6 +592,7 @@ def create_tables():
     
     conn.commit()
     
+    # --- 10. BLOCO ALTER TABLE ---
     def add_column_if_not_exists(table, column, definition):
         try:
             cursor.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
