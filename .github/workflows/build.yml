@@ -1,0 +1,37 @@
+name: Build e Release do BlueSys
+
+on:
+  push:
+    tags:
+      - 'v*' # Dispara apenas quando você criar uma tag (ex: v1.0.0)
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Baixar Código
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11' 
+
+    - name: Instalar Dependências
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pyinstaller
+
+    - name: Criar Executável (Build)
+      run: |
+        pyinstaller --noconfirm --onefile --windowed --name "BlueSys" --add-data "assets;assets" main.py
+
+    - name: Criar Release no GitHub
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: dist/BlueSys.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
